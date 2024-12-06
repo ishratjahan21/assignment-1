@@ -3,14 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* root variables for body sizes */
 :root {
-    --grayscale-900: #FCFCFC;
+    --grayscale-900: #18181B;
     --grayscale-800: #26272B;
-}
+    --grayscale-700: #3F3F46;
+    --grayscale-600: #51525C;
+    --grayscale-500: #70707B;
+    --grayscale-400: #A0A0AB;
+    --grayscale-300: #D1D1D6;
+    --grayscale-200: #E4E4E7;
+    --grayscale-100: #F4F4F5;
+    --grayscale-50: #FAFAFA;
+    --grayscale-25: #FCFCFC;
+    --h1: 104px;
+    --h2: 64px;
+    --h3: 52px;
+    --h4: 48px;
+    --h5: 40px;
+    --h6: 32px;
+    --h7: 24px;
 
+}
+/* default body styles */
 body {
     font-family: 'Satoshi', sans-serif;
+    background: var(--grayscale-300);
+    color: var(--grayscale-200);
 }
-
 
