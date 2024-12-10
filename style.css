@@ -34,10 +34,7 @@
 body {
     font-family: 'Satoshi', sans-serif;
     background: var(--grayscale-300);
-    color: var(--grayscale-200);
-}
-
-.sub-txt {
     color: var(--grayscale-900);
 }
+
 
