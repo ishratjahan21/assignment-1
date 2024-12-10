@@ -23,12 +23,21 @@
     --h5: 40px;
     --h6: 32px;
     --h7: 24px;
-
+    --body-xlarge: 20px;
+    --body-large: 18px;
+    --body-medium: 16px;
+    --body-small: 14px;
+    --body-xsmall: 12px;
+    --font-weight-bold: 700;
 }
 /* default body styles */
 body {
     font-family: 'Satoshi', sans-serif;
     background: var(--grayscale-300);
     color: var(--grayscale-200);
+}
+
+.sub-txt {
+    color: var(--grayscale-900);
 }
 
